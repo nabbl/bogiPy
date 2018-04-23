@@ -5,10 +5,9 @@ import keyboard
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 
-# LED snippets
-##############
+# LED script to highlight keys after pressing them
+##################################################
 
-# Set all device lighting to red
 from logipy import logi_led
 from logipy.logi_led import Color
 import time
